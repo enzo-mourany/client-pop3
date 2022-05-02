@@ -65,5 +65,9 @@ namespace ClientPOP3
             Communication.List();
         }
 
+        private void displayMessageButton_Click(object sender, EventArgs e)
+        {
+            Communication.DisplayMessage(Int32.Parse(numericUpDown1.Value + ""))
+        }
     }
 }

@@ -35,6 +35,9 @@
             this.buttonSTAT = new System.Windows.Forms.Button();
             this.buttonQUIT = new System.Windows.Forms.Button();
             this.buttonLIST = new System.Windows.Forms.Button();
+            this.displayMessageButton = new System.Windows.Forms.Button();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // listBoxAffichage
@@ -110,11 +113,30 @@
             this.buttonLIST.UseVisualStyleBackColor = true;
             this.buttonLIST.Click += new System.EventHandler(this.buttonLIST_Click);
             // 
+            // displayMessageButton
+            // 
+            this.displayMessageButton.Location = new System.Drawing.Point(713, 511);
+            this.displayMessageButton.Name = "displayMessageButton";
+            this.displayMessageButton.Size = new System.Drawing.Size(83, 40);
+            this.displayMessageButton.TabIndex = 13;
+            this.displayMessageButton.Text = "Display Message";
+            this.displayMessageButton.UseVisualStyleBackColor = true;
+            this.displayMessageButton.Click += new System.EventHandler(this.displayMessageButton_Click);
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(599, 511);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(83, 20);
+            this.numericUpDown1.TabIndex = 14;
+            // 
             // ClientPOP3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1216, 603);
+            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.displayMessageButton);
             this.Controls.Add(this.buttonLIST);
             this.Controls.Add(this.buttonQUIT);
             this.Controls.Add(this.buttonSTAT);
@@ -125,6 +147,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ClientPOP3";
             this.Text = "ClientPOP3";
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -139,6 +162,8 @@
         private System.Windows.Forms.Button buttonSTAT;
         private System.Windows.Forms.Button buttonQUIT;
         private System.Windows.Forms.Button buttonLIST;
+        private System.Windows.Forms.Button displayMessageButton;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
     }
 }
 

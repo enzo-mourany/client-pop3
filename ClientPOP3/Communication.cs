@@ -147,5 +147,18 @@ namespace ClientPOP3
             }
         }
 
+        /* Récupère et affiche le numéro du message passé en paramètres */
+        public static void DisplayMessage(int n)
+        {
+            string ligne, tampon;
+            tampon = "RETR" + n;
+            EcrireLigne(tampon);
+            ligne = LireLigne();
+            while (!ligne.Equals('.'))
+            {
+                ligne = LireLigne();
+            }
+        }
+
     }
 }
