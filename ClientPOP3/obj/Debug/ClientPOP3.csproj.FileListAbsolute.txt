@@ -1,0 +1,11 @@
+\\iut.bx1\Etudiants\Home\emourany\Downloads\ClientPOP3Graphique\ClientPOP3Graphique\ClientPOP3\bin\Debug\ClientPOP3.exe.config
+\\iut.bx1\Etudiants\Home\emourany\Downloads\ClientPOP3Graphique\ClientPOP3Graphique\ClientPOP3\bin\Debug\ClientPOP3.exe
+\\iut.bx1\Etudiants\Home\emourany\Downloads\ClientPOP3Graphique\ClientPOP3Graphique\ClientPOP3\bin\Debug\ClientPOP3.pdb
+\\iut.bx1\Etudiants\Home\emourany\Downloads\ClientPOP3Graphique\ClientPOP3Graphique\ClientPOP3\obj\Debug\ClientPOP3.csproj.AssemblyReference.cache
+\\iut.bx1\Etudiants\Home\emourany\Downloads\ClientPOP3Graphique\ClientPOP3Graphique\ClientPOP3\obj\Debug\ClientPOP3.csproj.SuggestedBindingRedirects.cache
+\\iut.bx1\Etudiants\Home\emourany\Downloads\ClientPOP3Graphique\ClientPOP3Graphique\ClientPOP3\obj\Debug\ClientPOP3.ClientPOP3.resources
+\\iut.bx1\Etudiants\Home\emourany\Downloads\ClientPOP3Graphique\ClientPOP3Graphique\ClientPOP3\obj\Debug\ClientPOP3.Properties.Resources.resources
+\\iut.bx1\Etudiants\Home\emourany\Downloads\ClientPOP3Graphique\ClientPOP3Graphique\ClientPOP3\obj\Debug\ClientPOP3.csproj.GenerateResource.cache
+\\iut.bx1\Etudiants\Home\emourany\Downloads\ClientPOP3Graphique\ClientPOP3Graphique\ClientPOP3\obj\Debug\ClientPOP3.csproj.CoreCompileInputs.cache
+\\iut.bx1\Etudiants\Home\emourany\Downloads\ClientPOP3Graphique\ClientPOP3Graphique\ClientPOP3\obj\Debug\ClientPOP3.exe
+\\iut.bx1\Etudiants\Home\emourany\Downloads\ClientPOP3Graphique\ClientPOP3Graphique\ClientPOP3\obj\Debug\ClientPOP3.pdb
