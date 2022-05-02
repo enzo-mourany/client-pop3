@@ -127,28 +127,24 @@ namespace ClientPOP3
         /* Récupère et affiche la liste des messages */
         public static void List()
         {
-            //// *** BLOC A DECOMMENTER  : Ctrl+e puis u  ***
-            //string ligne, tampon;
-            //tampon = "LIST";
-            //EcrireLigne(tampon);
-            ///* réception de +OK .... */
-            //ligne = LireLigne();
-            //if (!ligne[0].Equals('+'))
-            //{
-            //    MessageBox.Show("ERR : LIST a échoué");
-            //}
-            //else
-            //{
-            //    /* lecture liste ligne par ligne jusqu'au "." final seul sur une ligne */
-            //    ligne = LireLigne();
-            //    while (!ligne.Equals("."))
-            //    {
-            //        /*** A COMPLETER  
-            //         * - afficher la ligne pour l'utilisateur
-            //         * - lire la ligne suivante
-            //         * ***/
-            //    }
-            //}
+            string ligne, tampon;
+            tampon = "LIST";
+            EcrireLigne(tampon);
+            /* réception de +OK .... */
+            ligne = LireLigne();
+            if (!ligne[0].Equals('+'))
+            {
+                MessageBox.Show("ERR : LIST a échoué");
+            }
+            else
+            {
+                /* lecture liste ligne par ligne jusqu'au "." final seul sur une ligne */
+                ligne = LireLigne();
+                while (!ligne.Equals("."))
+                {
+                    ligne = LireLigne();
+                }
+            }
         }
 
     }
