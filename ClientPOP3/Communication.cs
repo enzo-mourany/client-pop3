@@ -156,10 +156,12 @@ namespace ClientPOP3
             ligne = LireLigne();
             while (!ligne.Equals('.'))
             {
-                ligne = sr.ReadLine();
-                if (ligne.Contains("Received: from"))
+                if (ligne.StartsWith(" Subject: "))
                 {
-                    clientPOP3.WriteVerbose("Emetteur : " + ligne.Split(' ')[2]);
+                    if (ligne[0] == '.' && ligne[1] == '.')
+                    {
+                        clientPOP3.WriteVerbose("Emetteur : " + ligne.Split(' ')[2]);
+                    }
                 }
             }
         }
